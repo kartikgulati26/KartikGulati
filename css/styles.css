@@ -1,0 +1,282 @@
+/*********************ELEMENTS*********************/
+body{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    color: black;   
+}
+p{
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+ hr{
+    background-color: transparent;
+    border-color: #FFD523;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 60px;
+    margin:80px auto;
+}
+span{
+    color:red;
+}
+a{
+    margin: 0 20px;
+    color:#B2B1B9;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+a:hover{
+    color:whitesmoke;
+}
+h2{
+    color:#2C2E43;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration:5px underline #FFD523;
+}
+/*********************1st Container*********************/
+.container-fluid{
+    padding: 3% 15%;
+
+}
+.banner{
+    background-color: #2C2E43;
+    margin: 0px;
+    position: relative;
+}
+.logo-img{
+    position: absolute;
+    width: 6.875rem;
+    left:12.5rem;
+    image-rendering:auto;
+    border-radius: 100%;
+}
+.banner h1{
+    margin: 0 auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color:#FFD523;
+    letter-spacing: 5px;
+    }
+.banner p{
+    margin: 0;
+    color:#FFD523;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    letter-spacing: 13px;
+    word-spacing: 5px;
+}
+.cloud-1{
+    position: absolute;
+    width: auto;
+    right: 250px;
+}
+.cloud-2{
+    position: absolute;
+    left:250px;
+}
+.mountain{
+    width: 60%;
+    padding-top: 80px;
+}
+/*********************2nd Container*********************/
+.banner-2{
+    margin: 0;
+    padding: 100px 0;
+    background-color: #B2B1B9;   
+    position: relative;
+}
+.intro{
+    width: 50%;
+    margin:0 auto;
+}
+.hello{
+    width: 12.5rem;
+    position: relative;
+    float:right;
+    margin: 20px 0;
+    background-size: cover;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 400%;
+    box-shadow: 4px 4px 20px black;
+}
+.intro h1{
+    margin: 0px auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color:#2C2E43;
+    text-transform: capitalize;   
+}
+.intro p{
+    margin: 0;
+    color:#2C2E43;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.my-skills{
+    text-transform: capitalize;
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color:#2C2E43;
+}
+
+.skills-1{
+    width: 50%;
+    margin:5rem auto;
+}
+.skills-1 img{
+    width: 10rem;
+    float: left;
+    margin-right: 20px;
+    border: 5px solid black;
+    border-radius: 100%;
+}
+.skills-1 h3{
+    text-transform: capitalize;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color: #2C2E43;
+    text-decoration: underline #FFD523;
+    text-align: left;
+    padding-top: 10px;
+}
+.skills-1 p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 25px;
+}
+
+.skills-2{
+    width: 50%;
+    margin:5rem auto 0;
+    
+}
+.skills-2 img{
+    width: 10rem;
+    float: right;
+    margin-left: 20px;
+}
+.skills-2 h3{
+    text-transform: capitalize;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color: #2C2E43;
+    text-decoration: underline hsl(49, 100%, 57%);
+    text-align: right;
+    padding-top: 30px;
+}
+.skills-2 p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-align: right;
+    line-height: 25px;
+}
+
+.contact-info{
+    margin:40px auto 0;
+    width: 35%;
+    line-height: 26px;
+}
+.btn {
+    margin-top: 50px;
+    background: #DA0037;
+    background-image: -webkit-linear-gradient(top, #d4325b, #DA0037);
+    background-image: -moz-linear-gradient(top, #d4325b, #DA0037);
+    background-image: -ms-linear-gradient(top, #d4325b, #DA0037);
+    background-image: -o-linear-gradient(top, #d4325b, #DA0037);
+    background-image: -webkit-gradient(to bottom, #d4325b, #DA0037);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #EDEDED;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 10px 0 #000000;
+    -moz-box-shadow: 1px 1px 10px 0 #000000;
+    box-shadow: 1px 1px 10px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #DA0037;
+    color: #EDEDED;
+    background-image: -webkit-linear-gradient(top, #ee557c, #b9002e);
+    background-image: -moz-linear-gradient(top, #ee557c, #b9002e);
+    background-image: -ms-linear-gradient(top, #ee557c, #b9002e);
+    background-image: -o-linear-gradient(top, #ee557c, #b9002e);
+    background-image: -webkit-gradient(to bottom, #ee557c, #b9002e);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+/*********************3rd Container*********************/
+.banner-3{
+    background-color: #595260;
+    padding: 50px 0;
+}
+.banner-3 p{
+    width: 30%;
+    margin: 30px auto 0;
+    color:whitesmoke;
+    text-transform: capitalize;
+}
+
+@media(max-width:1222px){
+    .cloud-1, .cloud-2{
+        width:0;
+    }
+    .logo-img{
+        position: static;
+        padding: 3% 0;
+    }
+    .banner-2 p{
+        width:80%;
+    }
+}
+@media(max-width:1086px){
+    .hello{
+        float: none;
+        margin-bottom: 50px;
+    }
+    .skills-1 img, .skills-2 img{
+        float: none;
+    }
+    .skills-1 h3,.skills-1 p, .skills-2 h3, .skills-2 p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-3 p{
+        width: 100%;
+    }
+    .mountain{
+        width: 100%;
+        image-rendering: optimizeQuality;
+    }
+}
+@media(max-width:609px){
+    .banner h1{
+        font-size: 3.5rem;
+      
+    }
+    .banner p{
+        font-size: 1.5rem;
+        
+    }
+}
